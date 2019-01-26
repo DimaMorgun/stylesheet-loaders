@@ -1,26 +1,92 @@
 @keyframes rotate-around-planet {
+    0% {
+        bottom: calc(50% - 5px);
+        left: -5px;
+        z-index: 4;
+    }
+    6.25% {
+        bottom: calc(25% - 5px);
+        left: calc(5% - 5px);
+        z-index: 4;
+    }
+    12.5% {
+        bottom: calc(5% - 5px);
+        left: calc(30% - 5px);
+        z-index: 4;
+    }
+    18.75% {
+        bottom: -5px;
+        left: calc(40% - 5px);
+        z-index: 4;
+    }
     25% {
         bottom: -5px;
         left: calc(50% - 5px);
-        background-color: blue;
+        z-index: 4;
+    }
+    31.25% {
+        bottom: -5px;
+        left: calc(60% - 5px);
+        z-index: 4;
+    }
+    37.5% {
+        bottom: calc(5% - 5px);
+        left: calc(70% - 5px);
+        z-index: 4;
+    }
+    43.75% {
+        bottom: calc(25% - 5px);
+        left: calc(95% - 5px);
         z-index: 4;
     }
     50% {
         bottom: calc(50% - 5px);
         left: calc(100% - 5px);
-        background-color: yellow;
+        z-index: 4;
+    }
+    56.25% {
+        bottom: calc(75% - 5px);
+        left: calc(95% - 5px);
+        z-index: 4;
+    }
+    62.5% {
+        bottom: calc(95% - 5px);
+        left: calc(70% - 5px);
+        z-index: 1;
+    }
+    68.75% {
+        bottom: calc(100% - 5px);
+        left: calc(60% - 5px);
         z-index: 1;
     }
     75% {
         bottom: calc(100% - 5px);
-        left: calc(50% - 5px);
-        background-color: green;
+        left: calc(60% - 5px);
         z-index: 1;
     }
+    81.25% {
+        bottom: calc(100% - 5px);
+        left: calc(50% - 5px);
+        z-index: 1;
+    }
+    87.5% {
+        bottom: calc(100% - 5px);
+        left: calc(40% - 5px);
+        z-index: 1;
+    }
+    93.75% {
+        bottom: calc(95% - 5px);
+        left: calc(30% - 5px);
+        z-index: 1;
+    }
+    97.5% {
+        bottom: calc(75% - 5px);
+        left: calc(5% - 5px);
+        z-index: 4;
+    }
     100% {
-        bottom: calc(50% - 5px);
+        bottom: calc(75% - 5px);
         left: -5px;
-        background-color: green;
         z-index: 4;
     }
 }
@@ -78,6 +144,7 @@
     background: red;
     bottom: calc(50% - 5px);
     left: -5px;
-    animation: rotate-around-planet 6s infinite;
+    animation: rotate-around-planet linear infinite;
+    animation-duration: 6s;
     z-index: 4;
 }
