@@ -1,11 +1,83 @@
-/* @keyframes rotateLight {
-    0% {
-        transform: rotate(0deg);
+@keyframes rotate-around-planet {
+    25% {
+        bottom: -5px;
+        left: calc(50% - 5px);
+        background-color: blue;
+        z-index: 4;
+    }
+    50% {
+        bottom: calc(50% - 5px);
+        left: calc(100% - 5px);
+        background-color: yellow;
+        z-index: 1;
+    }
+    75% {
+        bottom: calc(100% - 5px);
+        left: calc(50% - 5px);
+        background-color: green;
+        z-index: 1;
     }
     100% {
-        transform: rotate(360deg);
+        bottom: calc(50% - 5px);
+        left: -5px;
+        background-color: green;
+        z-index: 4;
     }
-} */
-/* animation: changeEnvirounment 6s infinite; */
+}
 
-/* Keyframes */
+#satellite-around-planet {
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    box-shadow: inset 0px 0px 250px 0 #001f3f;
+    border-radius: 50%;
+}
+
+#orbit-back {
+    position: absolute;
+    width: 175px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    border-left: none;
+    border-bottom: none;
+    top: calc(50% - 15px);
+    left: calc(50% - 87.5px);
+}
+
+#planet {
+    position: relative;
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(78, 187, 255);
+    box-shadow: 0px 0px 15px 5px rgb(154, 216, 255);
+    border-radius: 50%;
+    top: calc(50% - 40px);
+    z-index: 2;
+}
+
+#orbit-front {
+    position: absolute;
+    width: 175px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+    border-top: none;
+    border-right: none;
+    top: calc(50% - 15px);
+    left: calc(50% - 87.5px);
+    z-index: 3;
+}
+
+#satellite {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: red;
+    bottom: calc(50% - 5px);
+    left: -5px;
+    animation: rotate-around-planet 6s infinite;
+    z-index: 4;
+}
