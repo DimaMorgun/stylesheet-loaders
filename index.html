@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
     <a href="./christmas/christmas-loaders.html">Christmas</a>
     <a href="./space/space-loaders.html">Space</a>
 </body>
+
+<script>
+    let count = 0;
+
+    for (i = 0; i <= 100; i += 5.55555555556) {
+        if(count % 2 === 0 && count !== 0){
+            i += 0.694;
+        }
+        console.log('i = ', i);
+        count++;
+    }
+
+    console.log('count = ', count);
+</script>
+
 </html>

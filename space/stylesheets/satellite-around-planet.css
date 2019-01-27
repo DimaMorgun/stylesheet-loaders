@@ -4,82 +4,82 @@
         left: -5px;
         z-index: 4;
     }
-    6.25% {
+    5.55555555556% {
         bottom: calc(25% - 5px);
         left: calc(5% - 5px);
         z-index: 4;
     }
-    12.5% {
+    11.805111111119999% {
         bottom: calc(5% - 5px);
         left: calc(30% - 5px);
         z-index: 4;
     }
-    18.75% {
+    17.360666666679997% {
         bottom: -5px;
         left: calc(40% - 5px);
         z-index: 4;
     }
-    25% {
+    23.610222222239994% {
         bottom: -5px;
         left: calc(50% - 5px);
         z-index: 4;
     }
-    31.25% {
+    29.165777777799995% {
         bottom: -5px;
         left: calc(60% - 5px);
         z-index: 4;
     }
-    37.5% {
+    35.415333333359996% {
         bottom: calc(5% - 5px);
         left: calc(70% - 5px);
         z-index: 4;
     }
-    43.75% {
+    40.970888888919994% {
         bottom: calc(25% - 5px);
         left: calc(95% - 5px);
         z-index: 4;
     }
-    50% {
+    47.220444444479995% {
         bottom: calc(50% - 5px);
         left: calc(100% - 5px);
         z-index: 4;
     }
-    56.25% {
+    52.77600000003999% {
         bottom: calc(75% - 5px);
         left: calc(95% - 5px);
         z-index: 4;
     }
-    62.5% {
+    59.02555555559999% {
         bottom: calc(95% - 5px);
         left: calc(70% - 5px);
         z-index: 1;
     }
-    68.75% {
+    64.58111111116% {
         bottom: calc(100% - 5px);
         left: calc(60% - 5px);
         z-index: 1;
     }
-    75% {
+    70.83066666672% {
         bottom: calc(100% - 5px);
         left: calc(60% - 5px);
         z-index: 1;
     }
-    81.25% {
+    76.38622222228001% {
         bottom: calc(100% - 5px);
         left: calc(50% - 5px);
         z-index: 1;
     }
-    87.5% {
+    82.63577777784002% {
         bottom: calc(100% - 5px);
         left: calc(40% - 5px);
         z-index: 1;
     }
-    93.75% {
+    88.19133333340002% {
         bottom: calc(95% - 5px);
         left: calc(30% - 5px);
         z-index: 1;
     }
-    97.5% {
+    94.44088888896003% {
         bottom: calc(75% - 5px);
         left: calc(5% - 5px);
         z-index: 4;
