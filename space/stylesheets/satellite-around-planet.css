@@ -4,88 +4,39 @@
         left: -5px;
         z-index: 4;
     }
-    5.55555555556% {
-        bottom: calc(25% - 5px);
-        left: calc(5% - 5px);
-        z-index: 4;
-    }
-    11.805111111119999% {
+    10% {
         bottom: calc(5% - 5px);
-        left: calc(30% - 5px);
         z-index: 4;
     }
-    17.360666666679997% {
-        bottom: -5px;
-        left: calc(40% - 5px);
-        z-index: 4;
-    }
-    23.610222222239994% {
+    25% {
         bottom: -5px;
         left: calc(50% - 5px);
         z-index: 4;
     }
-    29.165777777799995% {
-        bottom: -5px;
-        left: calc(60% - 5px);
-        z-index: 4;
-    }
-    35.415333333359996% {
+    40% {
         bottom: calc(5% - 5px);
-        left: calc(70% - 5px);
         z-index: 4;
     }
-    40.970888888919994% {
-        bottom: calc(25% - 5px);
-        left: calc(95% - 5px);
-        z-index: 4;
-    }
-    47.220444444479995% {
+    50% {
         bottom: calc(50% - 5px);
         left: calc(100% - 5px);
         z-index: 4;
     }
-    52.77600000003999% {
-        bottom: calc(75% - 5px);
-        left: calc(95% - 5px);
-        z-index: 4;
-    }
-    59.02555555559999% {
+    60% {
         bottom: calc(95% - 5px);
-        left: calc(70% - 5px);
         z-index: 1;
     }
-    64.58111111116% {
-        bottom: calc(100% - 5px);
-        left: calc(60% - 5px);
-        z-index: 1;
-    }
-    70.83066666672% {
-        bottom: calc(100% - 5px);
-        left: calc(60% - 5px);
-        z-index: 1;
-    }
-    76.38622222228001% {
+    75% {
         bottom: calc(100% - 5px);
         left: calc(50% - 5px);
         z-index: 1;
     }
-    82.63577777784002% {
-        bottom: calc(100% - 5px);
-        left: calc(40% - 5px);
-        z-index: 1;
-    }
-    88.19133333340002% {
+    90% {
         bottom: calc(95% - 5px);
-        left: calc(30% - 5px);
         z-index: 1;
-    }
-    94.44088888896003% {
-        bottom: calc(75% - 5px);
-        left: calc(5% - 5px);
-        z-index: 4;
     }
     100% {
-        bottom: calc(75% - 5px);
+        bottom: calc(50% - 5px);
         left: -5px;
         z-index: 4;
     }
@@ -142,8 +93,6 @@
     width: 10px;
     height: 10px;
     background: red;
-    bottom: calc(50% - 5px);
-    left: -5px;
     animation: rotate-around-planet linear infinite;
     animation-duration: 6s;
     z-index: 4;
